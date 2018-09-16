@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Net.Http;
-using System.Net.Security;
 using System.Threading.Tasks;
 using IdentityModel.Client;
 using Newtonsoft.Json.Linq;

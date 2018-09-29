@@ -13,4 +13,21 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Account\LoggedOut.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Account\Login.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Account\Logout.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Consent\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Consent\_ScopeListItem.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Diagnostics\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Grants\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Home\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Shared\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Shared\Redirect.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Shared\_Layout.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\Shared\_ValidationSummary.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\_ViewImports.cshtml" />
+    <_ContentIncludedByDefault Remove="ui\IdentityServer4.Quickstart.UI-dev\Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
 </Project>

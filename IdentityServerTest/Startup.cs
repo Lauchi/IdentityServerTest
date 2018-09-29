@@ -2,6 +2,8 @@
 using IdentityServer4;
 using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.EntityFramework.Mappers;
+using IdentityServer4.Quickstart.UI;
+using IdentityServer4.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -52,6 +54,9 @@ namespace IdentityServerTest
                     options.ClientId = "789502147577-9j9s56juhpk4ic88oucblcu41qfoq3cd.apps.googleusercontent.com";
                     options.ClientSecret = "GcKIpW0hClIkXBMCWs6qAUPo";
                 });
+
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IProfileService, CustomProfileService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
